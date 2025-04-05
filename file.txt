@@ -1,1 +1,7 @@
 This is some text
+
+Run the following command on Terminal to find .DS_Store items:
+- find . -name ".DS_Store"
+
+Run the following to delete and show the paths to the .DS_Store files:
+- find . -name ".DS_Store" -print -delete
