@@ -2,3 +2,23 @@ body {
     padding: 40px;
     background-color: #1f1e33;
 }
+
+.image-grid {
+    display: grid;  /* 
+        turns the .image-grid container 
+        into a CSS Grid, allows arranging 
+        items into rowns and columns 
+    */
+
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr)); /*
+        - repeat(...) tells grid how many columns to create
+        - auto-fit -> automatically fit AS MANY COLUMNS AS POSSIBLE INTO THE ROW 
+          based on the available space
+        - minmax(0, 1fr) -> each column should have a minimum width of 0, and 
+          maximum width of 1 FRACTION of available space
+    */
+
+    grid-gap: 20px; /*
+        - adds 20px spacing between each image both horizontally and vertically
+    */
+}
