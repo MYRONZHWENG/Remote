@@ -5,3 +5,7 @@ Run the following command on Terminal to find .DS_Store items:
 
 Run the following to delete and show the paths to the .DS_Store files:
 - find . -name ".DS_Store" -print -delete
+
+Run the following to command git to stop tracking DS_Store items:
+git rm --cached .DS_Store
+
