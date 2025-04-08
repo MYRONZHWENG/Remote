@@ -28,7 +28,7 @@ body {
 }
 
 .image-grid img { /* type-selector: select img elements in image-grid */
-    width: 100%; /* set the width of element to be 100% of its parent container's width */
+    width: 200px; /* set the width of element to be 100% of its parent container's width */
     height: auto; /* maintain aspect ratio */
 }
 
